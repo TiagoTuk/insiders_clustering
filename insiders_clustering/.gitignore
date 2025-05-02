@@ -1,0 +1,35 @@
+# Arquivos e pastas de ambiente virtual
+venv/
+.env/
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Arquivos do Jupyter Notebook com checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de configurações do sistema/IDE
+*.DS_Store
+*.vscode/
+*.idea/
+
+# Arquivos de chave ou credenciais
+*.pem
+*.key
+*.crt
+credentials.json
+config.json
+
+# Dados temporários
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
