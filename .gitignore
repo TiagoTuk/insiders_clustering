@@ -1,0 +1,51 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# Virtualenv with pyenv
+.python-version
+
+# VS Code settings
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Modelos e dados
+*.pkl
+*.joblib
+*.h5
+*.sav
+*.npy
+*.npz
+
+# Relatórios
+/reports/*.ipynb
+/reports/*.html
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*~
+
+# Dados sensíveis e arquivos grandes
+/data/
+!data/README.md
+
+# Configuração do Papermill
+output-*.ipynb
+
